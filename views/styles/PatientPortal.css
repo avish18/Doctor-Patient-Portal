@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  top: 0%;
+  margin-left:33%;
+  background-color:#5833ff;
+  overflow-x: hidden;
+  margin-top: 20px;
+  display: block;
+  border-spacing: 2px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  border: solid black 2px;
+  border-spacing: 2px;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: blue;
+}
+
+/* Main content */
+.main {
+  top:20%;
+  left: 0;
+  margin-right: 10%;
+  font-size: 20px; /* Increased text to enable scrolling */
+  color:blue;
+  padding: 0px 10px;
+  display: block;
+  overflow: hidden;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+  color: white;
+} 
+.footer{
+  position:fixed;
+  left:0;
+  bottom:0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family:consolas;
+  
+}
+.header{
+  position:relative;
+  top:0;
+  margin-left: 10%;
+  margin-right:10%;
+  width: 80%;
+  height:100%;
+  background-color: white;
+  color: blue;
+  text-align: left;
+  font-family:consolas;
+  font-size: 14;
+  display: block;
+  border-style: solid;
+  border-color: black;
+}
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  margin-top: 6px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.main a{
+  text-decoration: none;
+}
+.slot{
+  position:relative;
+  top:0;
+  color: black;
+  text-align: left;
+  font-family:consolas;
+  display: block;
+  border-style: solid;
+  border-color: black;
+  border-spacing: 2px; 
+  margin: 4px;
+}
+.left{
+  width:30%;
+  float:left;
+}
+.right{
+  width:70%;
+  float:left;
+}
+.one{
+  width:32%;
+  float:left;
+}
+.two{
+  width:32%;
+  float:left;
+}
+.three{
+  width:32%;
+  float:left;
+}
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.image{
+  margin: 4px;
+  border-radius: 40px;
+}
+.card-image{
+  width:190px;
+  height:190px;
+  border-radius: 5px;
+}
+.myButton {
+  background-color:#44c767;
+  border-radius:28px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+  background-color:#5cbf2a;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+span{
+  font-size: 12px;
+  color:red;
+}
+.center {
+  display: table;
+  width: 600px;
+  height: 500px;
+  text-align: center;
+}
+
+.center p {
+  display: table-cell;
+  vertical-align: middle;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 94%;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  width: 96%;
+}
+
+.alert.success {background-color: #4CAF50;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
